@@ -4,7 +4,7 @@ A mod that helps you find and collect the 3050 rare variants of tropical fish in
 
 Minecraft中除了22种常见的热带鱼外，还有3050种稀有变种。此模组可以帮助你更轻松地发现并收集这些稀有热带鱼。
 
-<video src="demo.mp4" controls autoplay loop></video>
+![demo](demo.gif)
 
 ## Features 功能
 - ✨ **Visual Highlights**: Rare fish emit particles so you won't miss them.
