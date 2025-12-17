@@ -1,0 +1,9 @@
+{
+  "text.tropical_fish.config_title": "热带鱼模组配置",
+  "text.tropical_fish.config_general": "通用设置",
+  "text.tropical_fish.enable_particles": "开启罕见鱼粒子效果",
+  "text.tropical_fish.particle_intensity": "粒子效果强度",
+  "text.tropical_fish.tooltip.enable_particles": "开启后，罕见的热带鱼周围会显示粒子效果。",
+  "text.tropical_fish.tooltip.particle_intensity": "设置粒子效果的生成频率和密度。",
+  "message.tropical_fish.fish_found": "§l§e发现罕见热带鱼!§r Pos: (%s, %s, %s), ID: %s"
+}
