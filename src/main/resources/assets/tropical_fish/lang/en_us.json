@@ -1,0 +1,9 @@
+{
+  "text.tropical_fish.config_title": "Tropical Fish Mod Configuration",
+  "text.tropical_fish.config_general": "General Settings",
+  "text.tropical_fish.enable_particles": "Enable Rare Fish Particles",
+  "text.tropical_fish.particle_intensity": "Particle Intensity",
+  "text.tropical_fish.tooltip.enable_particles": "Enables glowing particles around rare tropical fish.",
+  "text.tropical_fish.tooltip.particle_intensity": "Sets the frequency and density of particle effects.",
+  "message.tropical_fish.fish_found": "§l§eRare Tropical Fish found!§r Pos: (%s, %s, %s), ID: %s"
+}

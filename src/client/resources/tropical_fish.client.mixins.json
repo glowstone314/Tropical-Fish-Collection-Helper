@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "gc.mc.tropical_fish.mixin.accessor",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "TropicalFishEntityAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
