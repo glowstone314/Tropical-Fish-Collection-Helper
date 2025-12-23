@@ -3,7 +3,7 @@
   "id": "tropical_fish_collection_helper",
   "version": "${version}",
   "name": "Tropical Fish Collection Helper",
-  "description": "This mod can broadcast coordinates to the chat when a rare tropical fish is found and generate tracking particles around it.\n这个模组可在发现罕见的热带鱼时向聊天框广播坐标，并在其周围生成追踪粒子。",
+  "description": "This mod can broadcast the coordinates to the player when a rare tropical fish is found and create a circle of glowing effects.\n这个模组可在发现罕见的热带鱼时向玩家广播坐标，并生成一圈发光效果。",
   "authors": ["Glow_Creeper", "Google Gemini"],
   "contact": {},
   "license": "MIT",

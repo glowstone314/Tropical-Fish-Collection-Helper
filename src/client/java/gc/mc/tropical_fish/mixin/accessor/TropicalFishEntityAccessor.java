@@ -9,4 +9,5 @@ public interface TropicalFishEntityAccessor {
 
     @Invoker("getTropicalFishVariant")
     int invokeGetTropicalFishVariant();
+
 }

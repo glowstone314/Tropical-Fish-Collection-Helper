@@ -7,10 +7,10 @@ Minecraft中除了22种常见的热带鱼外，还有3050种稀有变种。此�
 ![demo](demo.gif)
 
 ## Features 功能
-- ✨ **Visual Highlights**: Rare fish emit particles so you won't miss them.
-- ✨ **粒子效果**：稀有鱼类会发出粒子效果，帮助你轻松发现它们。
-- ⚙️ **Customizable**: Toggle features and adjust particle intensity via Mod Menu.
-- ⚙️ **可定制**：通过模组菜单切换功能并调整粒子强度。
+- ✨ **Glow effect**: Rare fish will have a glowing ring, making them easy for you to spot.
+- ✨ **发光效果**：稀有鱼类会有一圈发光效果，帮助你轻松发现它们。
+- ⚙️ **Customizable**: Switch functions through the mod menu and adjust the color of the glow effect.
+- ⚙️ **可定制**：通过模组菜单切换功能并调整光圈颜色。
 - 🌐 **Server Friendly**: Client-side only. You can use it on any server!
 - 🌐 **服务器友好**：仅客户端安装，可在任何服务器上使用！
 
