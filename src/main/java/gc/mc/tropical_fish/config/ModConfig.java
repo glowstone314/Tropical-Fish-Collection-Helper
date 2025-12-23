@@ -18,8 +18,9 @@ public class ModConfig {
     private static ModConfig INSTANCE;
 
     // --- 配置字段 ---
-    public boolean enableRareFishParticles = true;
-    public float particleIntensity = 1.0f;
+    public boolean enableGlowEffect = true;
+    public boolean enableChatNotification = true;
+    public int glowColor = 0xFFD700;
 
     // --- 实例方法：保存配置 ---
     public void save() {

@@ -35,25 +35,31 @@ public class ModMenuIntegration implements ModMenuApi {
         ConfigCategory general = builder.getOrCreateCategory(
                 Text.translatable("text.tropical_fish.config_general"));
 
-        // 6. 添加配置条目：开启/关闭粒子效果
+        // 6. 添加配置条目：开启/关闭发光效果
         general.addEntry(entryBuilder.startBooleanToggle(
-                        Text.translatable("text.tropical_fish.enable_particles"),
-                        config.enableRareFishParticles)
+                        Text.translatable("text.tropical_fish.enable_glow_effect"),
+                        config.enableGlowEffect)
                 .setDefaultValue(true)
                 .setTooltip(
-                        Text.translatable("text.tropical_fish.tooltip.enable_particles"))
-                .setSaveConsumer(newValue -> config.enableRareFishParticles = newValue)
+                        Text.translatable("text.tropical_fish.tooltip.enable_glow_effect"))
+                .setSaveConsumer(newValue -> config.enableGlowEffect = newValue)
                 .build());
-
-        // 7. 添加配置条目：粒子效果强度 (Float Slider)
-        general.addEntry(entryBuilder.startDoubleField(
-                        Text.translatable("text.tropical_fish.particle_intensity"),
-                        config.particleIntensity)
-                .setDefaultValue(1.0)
-                .setMin(0.1)
-                .setMax(5.0)
-                .setTooltip(Text.translatable("text.tropical_fish.tooltip.particle_intensity"))
-                .setSaveConsumer(newValue -> config.particleIntensity = newValue.floatValue())
+        // 添加配置：开关聊天信息提示
+        general.addEntry(entryBuilder.startBooleanToggle(
+                        Text.translatable("text.tropical_fish.enable_chat_notification"),
+                        config.enableChatNotification)
+                .setDefaultValue(true)
+                .setTooltip(
+                        Text.translatable("text.tropical_fish.tooltip.enable_chat_notification"))
+                .setSaveConsumer(newValue -> config.enableChatNotification = newValue)
+                .build());
+        general.addEntry(entryBuilder.startColorField(
+                        Text.translatable("text.tropical_fish.glow_color"),
+                        config.glowColor)
+                .setDefaultValue(0xFFD700)
+                .setTooltip(Text.translatable("text.tropical_fish.tooltip.glow_color"))
+                .setAlphaMode(false)
+                .setSaveConsumer(newValue -> config.glowColor = newValue)
                 .build());
 
         // 8. 返回构建好的配置屏幕
