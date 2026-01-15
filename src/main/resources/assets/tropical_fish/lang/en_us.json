@@ -1,0 +1,11 @@
+{
+  "text.tropical_fish.config_title": "Tropical Fish Mod Configuration",
+  "text.tropical_fish.config_general": "General Settings",
+  "message.tropical_fish.fish_found": "Discover rare tropical fish! Coordinates: %s, %s, %s (Breed ID: %s)",
+  "text.tropical_fish.enable_glow_effect": "Glow Effect",
+  "text.tropical_fish.tooltip.enable_glow_effect": "Add a glow effect to rare tropical fish",
+  "text.tropical_fish.enable_chat_notification": "Chat Notification",
+  "text.tropical_fish.tooltip.enable_chat_notification": "Notify in chat when a rare tropical fish is found",
+  "text.tropical_fish.glow_color": "Glow Color",
+  "text.tropical_fish.tooltip.glow_color": "Select the color of the glow effect for rare tropical fish"
+}

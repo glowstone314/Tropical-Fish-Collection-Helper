@@ -1,0 +1,11 @@
+{
+  "text.tropical_fish.config_title": "热带鱼模组配置",
+  "text.tropical_fish.config_general": "通用设置",
+  "message.tropical_fish.fish_found": "发现稀有热带鱼！坐标: %s, %s, %s (品种ID: %s)",
+  "text.tropical_fish.enable_glow_effect": "发光效果",
+  "text.tropical_fish.tooltip.enable_glow_effect": "为稀有热带鱼添加发光效果",
+  "text.tropical_fish.enable_chat_notification": "聊天栏通知",
+  "text.tropical_fish.tooltip.enable_chat_notification": "发现稀有热带鱼时在聊天栏中通知",
+  "text.tropical_fish.glow_color": "发光颜色",
+  "text.tropical_fish.tooltip.glow_color": "选择稀有热带鱼发光效果的颜色"
+}
