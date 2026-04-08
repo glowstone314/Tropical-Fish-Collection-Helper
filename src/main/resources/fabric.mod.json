@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "tropical_fish_collection_help",
+  "version": "${version}",
+  "name": "Tropical Fish Collection Helper",
+  "description": "This mod can broadcast the coordinates to the player when a rare tropical fish is found and create a circle of glowing effects.\n这个模组可在发现罕见的热带鱼时向玩家广播坐标，并生成一圈发光效果。",
+  "authors": ["Glow_Creeper", "Google Gemini"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/tropical_fish/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "gc.mc.tropical_fish.datagen.TropicalFishDataGenerator"
+    ],
+    "client": [
+      "gc.mc.tropical_fish.client.TropicalFishClient"
+    ],
+    "main": [
+      "gc.mc.tropical_fish.TropicalFish"
+    ],
+    "modmenu": [
+      "gc.mc.tropical_fish.client.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "tropical_fish.mixins.json",
+    {
+      "config": "tropical_fish.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
