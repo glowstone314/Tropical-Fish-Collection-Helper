@@ -1,3 +1,7 @@
+The functionality of this mod has been migrated to [Glow Tools](https://github.com/glowstone314/Glow-Tools), and this project is closed.
+
+该模组功能已迁移至 [Glow Tools](https://github.com/glowstone314/Glow-Tools)，本项目关闭。
+
 # Tropical Fish Collection Helper 🐠 热带鱼收集助手
 
 A mod that helps you find and collect the 3050 rare variants of tropical fish in Minecraft, beyond the 22 common types.
